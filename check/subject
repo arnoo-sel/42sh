@@ -1,0 +1,1 @@
+cd /tmp;ls -l > /tmp/xx < /dev/null |echo * ;sleep 100& who;ls || who && pwd ; echo test

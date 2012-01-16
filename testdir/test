@@ -1,0 +1,123 @@
+stdin is not a tty ![0m
+s1 = [echo *] s2 = [&&]
+s1 = [echo *] s2 = [||]
+s1 = [echo *] s2 = [ ]
+s1 = [echo *] s2 = [;]
+s1 = [cho *] s2 = [&&]
+s1 = [cho *] s2 = [||]
+s1 = [cho *] s2 = [ ]
+s1 = [cho *] s2 = [;]
+s1 = [ho *] s2 = [&&]
+s1 = [ho *] s2 = [||]
+s1 = [ho *] s2 = [ ]
+s1 = [ho *] s2 = [;]
+s1 = [o *] s2 = [&&]
+s1 = [o *] s2 = [||]
+s1 = [o *] s2 = [ ]
+s1 = [o *] s2 = [;]
+s1 = [ *] s2 = [&&]
+s1 = [ *] s2 = [||]
+s1 = [ *] s2 = [ ]
+ 
+prems sepparator :
+s1 = [echo *] s2 = [&&]
+s1 = [echo *] s2 = [||]
+s1 = [echo *] s2 = [ ]
+s1 = [echo *] s2 = [;]
+s1 = [cho *] s2 = [&&]
+s1 = [cho *] s2 = [||]
+s1 = [cho *] s2 = [ ]
+s1 = [cho *] s2 = [;]
+s1 = [ho *] s2 = [&&]
+s1 = [ho *] s2 = [||]
+s1 = [ho *] s2 = [ ]
+s1 = [ho *] s2 = [;]
+s1 = [o *] s2 = [&&]
+s1 = [o *] s2 = [||]
+s1 = [o *] s2 = [ ]
+s1 = [o *] s2 = [;]
+s1 = [ *] s2 = [&&]
+s1 = [ *] s2 = [||]
+s1 = [ *] s2 = [ ]
+s1 = [cho *] s2 = [&&]
+s1 = [cho *] s2 = [||]
+s1 = [cho *] s2 = [ ]
+s1 = [cho *] s2 = [;]
+s1 = [ho *] s2 = [&&]
+s1 = [ho *] s2 = [||]
+s1 = [ho *] s2 = [ ]
+s1 = [ho *] s2 = [;]
+s1 = [o *] s2 = [&&]
+s1 = [o *] s2 = [||]
+s1 = [o *] s2 = [ ]
+s1 = [o *] s2 = [;]
+s1 = [ *] s2 = [&&]
+s1 = [ *] s2 = [||]
+s1 = [ *] s2 = [ ]
+s1 = [ho *] s2 = [&&]
+s1 = [ho *] s2 = [||]
+s1 = [ho *] s2 = [ ]
+s1 = [ho *] s2 = [;]
+s1 = [o *] s2 = [&&]
+s1 = [o *] s2 = [||]
+s1 = [o *] s2 = [ ]
+s1 = [o *] s2 = [;]
+s1 = [ *] s2 = [&&]
+s1 = [ *] s2 = [||]
+s1 = [ *] s2 = [ ]
+s1 = [o *] s2 = [&&]
+s1 = [o *] s2 = [||]
+s1 = [o *] s2 = [ ]
+s1 = [o *] s2 = [;]
+s1 = [ *] s2 = [&&]
+s1 = [ *] s2 = [||]
+s1 = [ *] s2 = [ ]
+s1 = [ *] s2 = [&&]
+s1 = [ *] s2 = [||]
+s1 = [ *] s2 = [ ]
+s1 = [*] s2 = [&&]
+s1 = [*] s2 = [||]
+s1 = [*] s2 = [ ]
+s1 = [*] s2 = [;]
+s1 = [*] s2 = [&&]
+s1 = [*] s2 = [||]
+s1 = [*] s2 = [ ]
+s1 = [*] s2 = [;]
+no ini i = 5 ini = 0
+nb = 1
+looking for file matching with : *[0m
+checking file : .[0m
+checking file : ..[0m
+checking file : lib[0m
+matching file : lib[0m
+checking file : include[0m
+matching file : include[0m
+checking file : Makefile[0m
+matching file : Makefile[0m
+checking file : get_cc.sh[0m
+matching file : get_cc.sh[0m
+checking file : 42sh[0m
+matching file : 42sh[0m
+checking file : out[0m
+matching file : out[0m
+checking file : src[0m
+matching file : src[0m
+checking file : check[0m
+matching file : check[0m
+checking file : check.pl[0m
+matching file : check.pl[0m
+checking file : test[0m
+matching file : test[0m
+checking file : check.sh[0m
+matching file : check.sh[0m
+checking file : proot[0m
+matching file : proot[0m
+checking file : tcsh_out[0m
+matching file : tcsh_out[0m
+checking file : test_out[0m
+matching file : test_out[0m
+checking file : 1[0m
+matching file : 1[0m
+1 test_out tcsh_out proot check.sh test check.pl check src out 42sh get_cc.sh Makefile include lib
+Return value : 0[0m
+

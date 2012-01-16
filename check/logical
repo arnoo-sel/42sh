@@ -1,0 +1,23 @@
+echo proot || echo proot
+echo proot || ""
+echo || ""
+echo&&echo
+echo||echo
+ls a.out &&echo caca
+ls a.u && echocaca
+ls proot || echo caca
+ls a.out || echocaca
+ls a.out || ls a.ut && echo proot
+ls a.ot || ls a.out && echo proot
+ls a.out || ls a.out && echo proot
+ls a.out && ls a.ut && echo proot
+ls a.ou && ls a.out && echo proot
+ls a.out && ls a.out && echo proot
+ls a.ut && ls a.ut && echo proot
+ls a.out || ls a.ut || echo proot
+ls a.ot || ls a.out || echo proot
+ls a.out || ls a.out || echo proot
+ls a.out && ls a.ut || echo proot
+ls a.ou && ls a.out || echo proot
+ls a.out && ls a.out || echo proot
+ls a.ut && ls a.ut || echo proot

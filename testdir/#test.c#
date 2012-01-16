@@ -1,0 +1,57 @@
+
+#include <fcntl.h>
+#include <unistd.h>
+#include <termios.h>
+
+void			uncanonical(struct termios *saveline)
+{
+  struct termios	line;
+
+  if (tcgetattr(0, saveline) < 0)
+    exit(-1);
+  memcpy(&line, saveline, sizeof (line));
+  line.c_lflag &= ~(ICANON|ECHO);
+  line.c_cc[VMIN] = 1;
+  line.c_cc[VTIME] = 0;
+  if (tcsetattr(0, TCSANOW, &line) < 0)
+    exit(-1);
+}
+
+main()
+{
+  int	i = 0, sa, x, y;
+  int	fd;
+  char	buf[40];
+  struct termios s;
+  
+  uncanonical(&s);
+  memset(buf, 0, 40);
+
+  if ((fd = open("/dev/tty", O_RDWR)) < 0)
+    {
+      printf("proot\n");
+      exit(-1);
+    }
+
+  write(fd, "[6n", 4);
+  read(fd, buf, 40); 
+  i = 1;
+  while (buf[i])
+    {
+      if (buf[i] == ';')
+	{
+	  buf[i] = 0;
+	  y = atoi(buf + 2);
+	  sa = i + 1;
+	}
+      if (buf[i] == 'R')
+	{
+	  buf[i] = 0;
+          x = atoi(buf + sa);
+	}
+      i++;
+    }
+  printf("%d-%d\n", x, y);
+}
+
+//

@@ -1,0 +1,3 @@
+echo *{caca,test}*
+echo src/*.{c,o}
+echo *{test,caca,std}* src/*.{c,o}
