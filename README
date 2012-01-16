@@ -1,0 +1,14 @@
+42sh - Full featured UNIX shell
+-------------------------------
+
+This is a 1st year school project made by a 4 people team:
+- Adrien Jarthon
+- Jocelyn de La Rosa
+- Yoam Farges
+- Arnaud Sellier
+
+The syntax is based on tcsh.
+It will compile successfully on:
+- i386/Freebsd (tested on version 5.5)
+- sun4u/SunOS
+- ia64/Linux
